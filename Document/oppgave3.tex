@@ -1,0 +1,45 @@
+\section{Oppgave 3.3}
+
+\subsection*{a)}
+
+Dette er ekvivalent med matrisen 
+
+\[
+    \left[
+    \begin{array}{cc|c}
+        1&4&1\\
+        5&18&8\\
+        -3&4&2
+    \end{array}
+    \right] = 
+    \left[
+        \begin{array}{cc|c}
+            1&0&-1/4\\
+            0&1&5/16\\
+            5&18&8
+        \end{array}
+    \right]
+\]
+
+Nei, det er ingen tall som gir rett svar for alle tre verdiene. 
+
+\subsection*{b)}
+
+\[
+    \left[
+    \begin{array}{ccc|c}
+        1&4&a&d\\
+        5&18&b&e\\
+        -3&4&c&f
+    \end{array}
+    \right] = 
+    \left[
+        \begin{array}{ccc|c}
+            1&0&\tfrac{a-c}{4}&x_a\\
+            0&1&\tfrac{4b + 5(c-a)}{72}&x_b\\
+            0&0&c&x_c
+        \end{array}
+    \right]
+\]
+
+Siste likhet er gitt ved at \(\tfrac{a-c}{4} = \tfrac{4b-5(c-a)}{72} = 0\). Da er \(a = c = 0\) og \(b = 0\), som gir polynomet \(x^2+1\).
